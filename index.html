@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/new_style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Caption:wght@400;700&display=swap" rel="stylesheet">
+
+    <script src="js/main.js"></script>
+</head>
+
+<body>
+    <div class="popup_window">
+        <div class="filter">
+            <div class="filter--box filter--box-none">
+                <div class="filter--item filter--item-none" id="filter--item-none">Скрыть фильтр</div>
+
+            </div>
+            <div class="filter--box filter--box-reset">
+                <div class="filter--item filter--item__reset" id="filter-reset">Сбросить всё <span>&#x2716;</span></div>
+            </div>
+            <div class="filter--box filter--box-list">
+                <div class="filter--item__list">
+                    <div class="filter--item filter--item__list--header"><p>Производитель</p> <span><svg width="10" height="10" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M9 1L5 5L1 1" stroke="#1976D2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg></span></div>
+                    <div class="filter--list">
+                        <div class="filter--item filter--item__list--item">Оригинальные производители</div>
+                        <div class="filter--item filter--item__list--item">Аналоги на конвейер</div>
+                        <div class="filter--item filter--item__list--item">Аналоги прочие</div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="filter--box filter--box-list">
+                <div class="filter--item__list">
+                    <div class="filter--item filter--item__list--header filter--item__list--provider"><p>Поставщики</p> <span><svg width="10" height="10" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M9 1L5 5L1 1" stroke="#1976D2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg></span></div>
+                    <div class="filter--list">
+                        <div class="filter--item filter--item__list--item">Оригинальные производители</div>
+                        <div class="filter--item filter--item__list--item">Аналоги на конвейер</div>
+                        <div class="filter--item filter--item__list--item">Аналоги прочие</div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="filter--box filter--box-dual">
+                <div class="filter--item">Избранное</div>
+                <div class="filter--item">Популярное</div>
+            </div>
+            <div class="filter--box filter--box-dual">
+                <div class="filter--item">Лучшие сроки</div>
+                <div class="filter--item">Лучшие цены</div>
+            </div>
+        </div>
+        <table class="table">
+            <thead>
+
+                <tr class="table--header">
+                    <th class="table--header--item">Наименование</th>
+                    <th class="table--header--item">Наличие</th>
+                    <th class="table--header--item">Срок поставки</th>
+                    <th class="table--header--item">Поставщик</th>
+                    <th class="table--header--item">Цена</th>
+                </tr>
+            </thead>
+            <tbody class="table--body">
+                <tr class="table--body--header">
+                    <td class="table--body--header--item">Запрашиваемый артикул</td>
+                    <td class="table--body--header--item table--body--header--item__link">Показать все</td>
+                </tr>
+                <tr class="table--row">
+                    <td class="table--col">
+                        <div class="table--row__col">
+                            <div class="table--name">
+                                <div class="table--item__company">GT OIL</div>
+                                <div class="table--item__article">8809059408926</div>
+                            </div>
+                            <div class="table--item__name">Масло моторное синтетическое "GT Energy SN 5W-30", 60л</div>
+
+                        </div>
+                        <div class="table--item__img">
+                            <span><svg width="19" height="20" viewBox="0 0 19 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="8.39976" cy="9.4" r="4.9" stroke="#383838"/>
+                                <line y1="-0.5" x2="4.89202" y2="-0.5" transform="matrix(-0.686833 -0.726815 0.686833 -0.726816 15.5997 16)" stroke="#383838"/>
+                                </svg>
+                                </span>
+                            <img src="https://kodbox.ru/upload/goods/images/topla/108160.png" alt="">
+                        </div>
+                    </td>
+                    <td class="table--col">
+                        <span class="toptext">Наличие</span>
+                        <span>7</span>
+                    </td>
+                    <td class="table--col">
+                        <span class="toptext">Срок поставки</span>
+                        <span>2 дн.</span>
+                    </td>
+                    <td class="table--col">
+                        <span class="toptext">Поставщик</span>
+                        <div class="provider">SN 5569 <span>
+                                <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M9 0L11.2363 1.49147L13.9158 1.45825L14.999 3.93445L17.2709 5.37003L16.857 8.04477L18 10.4934L16.2205 12.5174L15.8717 15.2016L13.2915 15.9324L11.5617 18L9 17.2055L6.43833 18L4.7085 15.9324L2.12831 15.2016L1.77953 12.5174L0 10.4934L1.143 8.04477L0.729127 5.37003L3.00101 3.93445L4.0842 1.45825L6.76366 1.49147L9 0Z" fill="#1976D2"/>
+                                    <path d="M12.4717 13.4938H11.4099L11.2481 12.227H6.29304L6.13124 13.4938H5.06945V10.8989H5.88855C5.94248 10.824 6.02675 10.6605 6.14136 10.4085C6.25596 10.1565 6.37057 9.79552 6.48518 9.32557C6.59978 8.85562 6.69753 8.27329 6.77843 7.57858C6.86607 6.87706 6.90315 6.04273 6.88967 5.07559H11.5009V10.8989H12.4717V13.4938ZM10.0043 10.8989V6.40371H8.28517C8.24472 7.57517 8.14022 8.53551 7.97168 9.2847C7.80989 10.0339 7.64472 10.572 7.47618 10.8989H10.0043Z" fill="white"/>
+                                </svg>
+                                <span class="providerhelp">Дилерский центр</span>
+                            </span>
+                        </div>
+                    </td>
+                    <td class="table--col">
+                        <div class="table--price">
+                            <div class="table--item__price">
+                                <span class="toptext">Цена</span>
+                                <span>29 962 ₽</span>
+                            </div> 
+                            <div class="table--item__basket">
+                                <input type="text" class="table--amount" value="1" placeholder="1">
+                                <span class="table--favorites">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M4.43081 5.31802C2.67345 7.07538 2.67345 9.92462 4.43081 11.682L12.1128 19.364L19.7948 11.682C21.5521 9.92462 21.5521 7.07538 19.7948 5.31802C18.0374 3.56066 15.1882 3.56066 13.4308 5.31802L12.1128 6.63609L10.7948 5.31802C9.03741 3.56066 6.18817 3.56066 4.43081 5.31802Z" stroke="#757575" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="#1976D2" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M4.43081 5.31802C2.67345 7.07538 2.67345 9.92462 4.43081 11.682L12.1128 19.364L19.7948 11.682C21.5521 9.92462 21.5521 7.07538 19.7948 5.31802C18.0374 3.56066 15.1882 3.56066 13.4308 5.31802L12.1128 6.63609L10.7948 5.31802C9.03741 3.56066 6.18817 3.56066 4.43081 5.31802Z" stroke="#1976D2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                </span>
+                                <a class="table--basket__btn btn btn-default btn-lg">В корзину</a>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+
+            </tbody>
+        </table>
+    </div>
+</body>
+
+</html>
